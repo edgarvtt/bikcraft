@@ -3,9 +3,8 @@
 
 .introducao-bg {
 
-    background-color: #000000;
-    color: #ffffff;
-    box-shadow: inset 0 -120px #ffffff ;
+    background-color: var(--cor-12);
+    box-shadow: inset 0 -120px var(--cor-00) ;
 
 }
 
@@ -13,11 +12,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 0px 40px;
-    max-width: 1200px;
-    padding-left: 16px;
-    padding-right: 16px;
-    margin-left:auto;
-    margin-right: auto;
+
 }
 
 .introducao-content{
@@ -28,9 +23,6 @@ padding-bottom: 200px;
 .introducao h1{
 
     margin-bottom: 32px;
-    font-size: 64px;
-    font-family: "Poppins";
-    font-weight: 600;
 
 
 }
@@ -41,16 +33,15 @@ padding-bottom: 200px;
 
 .introducao p{
     margin-bottom: 20px;
-    font-size: 24px ;
-    color: #b2b2b2;
-    font-family: "Roboto";
-    font-weight: 400;
+  
 }
 
 
 .introducao img {
     border-radius: 6px;
+    width: 100%;
 }
+
 
 @media (max-width:1200px){
 

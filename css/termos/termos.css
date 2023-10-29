@@ -11,6 +11,23 @@
 
 }
 
+.termos-grid{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    max-width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.termos-grid img{
+
+    width: 320px;
+    height: 300px;
+    margin-top: 300px;
+    margin-left: 200px;
+
+}
+
 .termos p + h2 {
 
     margin-top: 40px;
@@ -33,5 +50,22 @@
     width: 12px;
     display: inline-block;
     background: var(--cor-p1);
+
+}
+
+
+@media (max-width:800px){
+
+.termos-grid{
+
+    grid-template-columns: 1fr;
+
+
+}
+
+.termos-grid img{
+
+    display: none;
+}
 
 }

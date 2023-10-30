@@ -5,7 +5,6 @@
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
-@import url(./seguros/seguros.css);
 @import url(./global/footer.css);
 @import url(./termos/termos.css);
 @import url(./utilidades/componentes.css);
@@ -15,3 +14,10 @@
 /* Bicicletas */
 
 @import url(./bikes/bicicletas.css);
+
+
+/* Seguros */
+
+@import url(./seguros/seguros.css);
+@import url(./seguros/vantagens.css);
+@import url(./seguros/perguntas.css);

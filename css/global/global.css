@@ -34,3 +34,7 @@ img [src$=".png"]{
     border-radius: 4px;
 
 }
+
+#bikes .titulo p{
+    text-transform: uppercase;
+}
